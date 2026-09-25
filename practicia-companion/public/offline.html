@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0f172a" />
+    <title>Sin conexión — PracticIA</title>
+    <style>
+      :root { color-scheme: light dark; }
+      body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px;
+             font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: #0f172a; color: #e2e8f0; text-align: center; }
+      main { max-width: 360px; }
+      img { width: 72px; height: 72px; border-radius: 18px; }
+      h1 { font-size: 22px; margin: 18px 0 8px; }
+      p { margin: 0 0 20px; color: #94a3b8; line-height: 1.5; font-size: 14px; }
+      button { background: #3b82f6; color: white; border: 0; border-radius: 10px; padding: 12px 20px; font-size: 15px; font-weight: 600; cursor: pointer; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img src="/icons/icon-192x192.png" alt="PracticIA" />
+      <h1>Estás sin conexión</h1>
+      <p>PracticIA necesita internet para cargar tus prácticas, asistencias y sesiones. Revisa tu conexión e inténtalo de nuevo.</p>
+      <button onclick="location.reload()">Reintentar</button>
+    </main>
+  </body>
+</html>

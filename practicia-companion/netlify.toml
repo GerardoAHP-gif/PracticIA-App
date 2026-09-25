@@ -1,0 +1,12 @@
+# Config de despliegue para Netlify.
+# El proyecto usa TanStack Start (que por dentro corre sobre "Nitro"), y Nitro
+# necesita saber para qué plataforma armar el servidor. Sin esto, el build por
+# defecto apunta a Cloudflare Workers, no a Netlify — con NITRO_PRESET="netlify"
+# le decimos explícitamente que genere el adaptador correcto para Netlify Functions.
+[build]
+  command = "npm run build"
+  publish = ".output/public"
+
+[build.environment]
+  NITRO_PRESET = "netlify"
+  NODE_VERSION = "20"

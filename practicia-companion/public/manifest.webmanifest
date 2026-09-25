@@ -1,0 +1,20 @@
+{
+  "id": "/",
+  "name": "PracticIA - Plataforma Educativa",
+  "short_name": "PracticIA",
+  "description": "Acompañamiento inteligente para prácticas profesionales: sesiones, IA, ruta y asistencia.",
+  "lang": "es",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "/icons/icon-192x192.png", "type": "image/png", "sizes": "192x192", "purpose": "any" },
+    { "src": "/icons/icon-512x512.png", "type": "image/png", "sizes": "512x512", "purpose": "any" },
+    { "src": "/icons/maskable-icon-512x512.png", "type": "image/png", "sizes": "512x512", "purpose": "maskable" }
+  ]
+}
